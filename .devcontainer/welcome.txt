@@ -1,0 +1,5 @@
+CatCrafting Dev Container
+-------------------------
+Commands:
+    build - builds the CatCrafting jar and outputs it to the target directory
+

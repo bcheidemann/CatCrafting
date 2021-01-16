@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.154.2/containers/java-8
 {
-	"name": "Java 8",
+	"name": "CatCrafting Dev",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
@@ -30,6 +30,7 @@
 		"dotjoshjohnson.xml",
 		"ms-vsliveshare.vsliveshare-pack"
 	],
+	"postCreateCommand": "cat /tmp/aliases.sh >> ~/.bashrc; sudo rm /tmp/aliases.sh; echo \"\ncat /tmp/welcome.txt || echo 'CatCrafting Dev Container'\" >> ~/.bashrc",
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
