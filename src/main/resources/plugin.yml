@@ -1,3 +1,10 @@
 main: com.bcheidemann.autocrafting.Plugin
 name: CatCrafting
 version: 0.0.1
+api-version: 1.16
+commands:
+  #  basic:
+  #     description: This is a demo command.
+  #     usage: /<command> [player]
+  #     permission: yerawizard.basic
+  #     permission-message: You don't have permission to execute this command.
