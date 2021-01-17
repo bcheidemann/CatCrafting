@@ -1,6 +1,7 @@
 #
 # Standard Maven .gitignore
 #
+BuildTools/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
